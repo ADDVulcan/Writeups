@@ -4,7 +4,7 @@
 
 ### Active Players
 
-* mossman
+* mossmann
 * haram
 * coflynn
 
@@ -13,7 +13,7 @@
 
 #### Recon
 
-Initially, *mossman* & *haram* described hearing a very faint sound, and provided a 1m18s recording.
+Initially, *mossmann* & *haram* described hearing a very faint sound, and provided a 1m18s recording.
 
 The description for this was changed to "moving up and down again", which did not provide any obvious clues. This was the state of the challenge for the first day.
 
@@ -25,7 +25,7 @@ Eventually, the following hint was posted:
 
 Assuming that "flag not in standard format" meant it involved more basic codes which could not encode `{`, this hint suggested some more basic code was being referenced.
 
-In a true masterstroke, *coflynn* entered into google the phrase `POW code`, which had the following results:
+In a true masterstroke, *coflynn* took the first word he saw on the flag and entered into google along with `code`, giving the phrase `POW code`, which had the following results:
 
 1. [Tap code - boxentriq](https://www.boxentriq.com/code-breaking/tap-code)
 2. [Tap code - Wikipedia](https://en.wikipedia.org/wiki/Tap_code)
@@ -42,7 +42,7 @@ This sounded like great news - the tap code was described as using 1 to 5 taps. 
 
 ### Full Flag Solve
 
-Unfortunately, *mossman* was at lunch and the only one able to record the hardware. This caused a less pleasant lunch experience as *coflynn* harassed him to record the full sequence, taking advantage of the fact he was 3 hours ahead in time and thus well outside of regular lunch time windows.
+Unfortunately, *mossmann* was at lunch and the only one able to record the hardware. This caused a less pleasant lunch experience as *coflynn* harassed him to record the full sequence, taking advantage of the fact he was 3 hours ahead in time and thus well outside of regular lunch time windows.
 
 With a longer recording, the same advanced audio analysis technique was used to convert the recording into a longer sequence. Again using the automated tooling to ensure little true knowledge was gained, we find the flag:
 
