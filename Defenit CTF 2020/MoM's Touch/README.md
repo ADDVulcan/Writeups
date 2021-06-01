@@ -22,6 +22,8 @@ I knew the first few characters of the flag, so I tried input with both correct 
 flag=$(printf '_%.0s' {1..73}); for i in {1..73}; do flag=$(for j in {33..126}; do f=${flag/_/$(printf "%x" $j | xxd -p -r)}; echo -n $f; echo -n $f | perf stat -B -e instructions ./momsTouch 2>&1 | grep ins; done | sort -V -k2 | tail -1 | awk '{print $1}'); echo $flag; done
 ```
 
+![output with flag](flag.png)
+
 ## Notes
 
 There are some other great [writeups](https://ctftime.org/task/11845) of this challenge, but they all used static analysis techniques. I decided to write this up because I took a very different approach. Sometimes you can reverse engineer things just by observing their behavior!
