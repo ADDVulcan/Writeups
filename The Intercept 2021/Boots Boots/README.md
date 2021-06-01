@@ -19,9 +19,9 @@ The description for this was changed to "moving up and down again", which did no
 
 #### Hint and Progress
 
-Eventually, the following hint was posted
+Eventually, the following hint was posted:
 
-TODO
+![](1200px-United_States_POW-MIA_flag.svg.png)
 
 Assuming that "flag not in standard format" meant it involved more basic codes which could not encode `{`, this hint suggested some more basic code was being referenced.
 
