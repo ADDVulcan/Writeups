@@ -14,7 +14,7 @@ Just before I started looking at this challenge, [@miek](https://github.com/miek
 
 The signal was fairly narrowband compared to the file's bandwidth, and the file included a lot of background noise that obscured the signal a bit.  To make it easier to work with, I filtered and decimated the signal with a small GNU Radio flowgraph.
 
-[![filtering ASK signal in GNU Radio](lurk-ask.grc)
+[![filtering ASK signal in GNU Radio](lurk-ask-grc.png)](lurk-ask.grc)
 
 At this point it appeared to become possible to reliably decode the ASK signal using `inspectrum`'s derived amplitude and threshold plots.  I began to decode the data that way but quickly realized that the number of bits in the file was quite large.  I also noticed that the data appeared to be Manchester encoded.  In Manchester encoding there are two symbols (low-high or high-low) used to encode each data bit, so there is never a string of more than two like symbols (low-low or high-high) in a row.
 
@@ -100,7 +100,7 @@ Initially I printed the decoded bytes to the terminal, but after noticing that t
 
 I realized once this was done that my experimental GNU Radio flowgraph was very nearly a complete solution, so I went back and added PNG output to it.  This flowgraph also includes the ASK decoding.  The only thing it lacks is extraction of the chip sequence from the ASK message.
 
-[![decoding the DSSS PNG in GNU Radio](lurk.grc)
+[![decoding the DSSS PNG in GNU Radio](lurk-grc.png)](lurk.grc)
 
 ## Notes on Synthesis
 
