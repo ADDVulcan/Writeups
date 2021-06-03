@@ -33,7 +33,7 @@ bld/
 Generated\ Files/
 
 # Visual Studio DB and SQL
-*slnx.sqlite
+.vs/slnx.sqlite
 
 # Files built by Visual Studio
 *_i.c
