@@ -143,10 +143,10 @@ supe    rsat executed  the following commands:
 Contents of `grep.log`:
 
 ```
-/proc/10/task/10/environ:SHELL=/bin/bashSAT_FLAG=flag{sierra457871juliet2:GAedWX5JKpieI6-
-va7QCqbKuC3IEdDWeOWbYCRmsS47G7nqjCvgamkGQch-FmO0B0V9wKm_0TKa4OGH77zbkFQs}
-PWD=/home/space/fprimeLOGNAME=spaceHOME=/home/spaceFLAG=flag{sierra457871juliet2:GAedWX5JKpieI6-
-va7QCqbKuC3IEdDWeOWbYCRmsS47G7nqjCvgamkGQch-FmO0B0V9wKm_0TKa4OGH77zbkFQs}
+/proc/10/task/10/environ:SHELL=/bin/bashSAT_FLAG=flag{sierra457871juliet2:XXXXXXXXXXXXXXXXXXXXXXXX
+_XXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXX}
+PWD=/home/space/fprimeLOGNAME=spaceHOME=/home/spaceFLAG=flag{sierra457871juliet2:XXXXXXXXXXXXXXXXXXXXXXXX
+_XXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXX}
 USER=spaceSHLVL=0PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/gamesMAIL=/var/mail/spaceOLDPWD=/home/space_=./sa
 tellite.exe
 ```
