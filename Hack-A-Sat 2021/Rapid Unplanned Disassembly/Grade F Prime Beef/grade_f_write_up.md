@@ -1,5 +1,5 @@
 
-#Grade F Prime Beef
+# Grade F Prime Beef
 
 ### Rapid Unplanned Disassembly 
 
@@ -71,7 +71,7 @@ Identified that the system was using NASA's F Prime - https://github.com/nasa/fp
 
 Command interface was somewhat familiar from previous hackasat events...
 
-Quickly looking at the interface - we noticed the Commanding tab - started examining the available commands...
+Quickly looking at the interface we noticed the `Commanding` tab - started examining the available commands...
 
 ![Commands of Interest](images/01_commands_of_interest_highlighted.PNG "commands of interest")
 
@@ -132,7 +132,7 @@ Downloading the file the team saw
 ThisIsNotTheFlagYouAreLookingFor
 ```
 
-supe    rsat executed  the following commands:
+supersat executed  the following commands:
 
 ```
 2021-06-27T05:33:32.386Z    0x25d    fileManager.ShellCommand    [ "grep -ra flag /proc/*", "grep.log" ]
@@ -175,5 +175,5 @@ FLAG=flag{sierra457871juliet2:XXXXXXXXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXX_XXXXXXXX
 ```
 
 
-The initially the `SAT_FLAG` almost send us on our way, but dumping the full set of environment variables the team captured the flag. 
+The initial response received for `SAT_FLAG` environment variable almost send us on our way, but dumping the full set of environment variables the team captured the flag. 
 
