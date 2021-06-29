@@ -149,13 +149,15 @@ PWD=/home/space/fprimeLOGNAME=spaceHOME=/home/spaceFLAG=flag{sierra457871juliet2
 _XXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXX}
 USER=spaceSHLVL=0PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/gamesMAIL=/var/mail/spaceOLDPWD=/home/space_=./sa
 tellite.exe
-``` 
+```
 
 
 dtechshield executed the following set of commands:
 
+```
 2021-06-27 06:34:08,(2(0)-1624775648:279639),fileManager.ShellCommand,605,[ ' e n v ' ,   ' t e s t . l o g ' ]
 2021-06-27 06:34:21,(2(0)-1624775661:360806),fileDownlink.SendFile,501,[ ' t e s t . l o g ' ,   ' t e s t . l o g ' ]
+```
 
 Contents of `test.log`:
 
