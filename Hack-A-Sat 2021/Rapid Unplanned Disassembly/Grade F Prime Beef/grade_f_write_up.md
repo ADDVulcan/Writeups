@@ -149,7 +149,7 @@ PWD=/home/space/fprimeLOGNAME=spaceHOME=/home/spaceFLAG=flag{sierra457871juliet2
 _XXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXX}
 USER=spaceSHLVL=0PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/gamesMAIL=/var/mail/spaceOLDPWD=/home/space_=./sa
 tellite.exe
-```
+``` 
 
 
 dtechshield executed the following set of commands:
@@ -175,5 +175,5 @@ FLAG=flag{sierra457871juliet2:XXXXXXXXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXX_XXXXXXXX
 ```
 
 
-The initial response received for `SAT_FLAG` environment variable almost send us on our way, but dumping the full set of environment variables the team captured the flag. 
+The initial response received for `SAT_FLAG` environment variable almost sent us on our way, but dumping the full set of environment variables the team captured the flag. 
 
