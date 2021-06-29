@@ -154,8 +154,10 @@ tellite.exe
 
 dtechshield executed the following set of commands:
 
+```
 2021-06-27 06:34:08,(2(0)-1624775648:279639),fileManager.ShellCommand,605,[ ' e n v ' ,   ' t e s t . l o g ' ]
 2021-06-27 06:34:21,(2(0)-1624775661:360806),fileDownlink.SendFile,501,[ ' t e s t . l o g ' ,   ' t e s t . l o g ' ]
+```
 
 Contents of `test.log`:
 
@@ -175,5 +177,5 @@ FLAG=flag{sierra457871juliet2:XXXXXXXXXXXXXXXXXXXXXXXX_XXXXXXXXXXXXXXXX_XXXXXXXX
 ```
 
 
-The initial response received for `SAT_FLAG` environment variable almost send us on our way, but dumping the full set of environment variables the team captured the flag. 
+The initial response received for `SAT_FLAG` environment variable almost sent us on our way, but dumping the full set of environment variables the team captured the flag. 
 
