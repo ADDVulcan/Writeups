@@ -119,7 +119,7 @@ Calculate and provide the recieve antenna gain in dBi:
 
 ### Gain
 
-We plugged numbers into a [web-based calculator](https://calculator.academy/antenna-gain-calculator/) to find that the receive antenna gain was 53.9 dBi (although this calculator did not display the units of the result!). I wasn't sure what precision would be required, so I entered 54 and found that it was accepted.
+We computed the antenna [area](https://duckduckgo.com/?q=area+of+a+circle) from its diameter and plugged numbers into a [web-based calculator](https://calculator.academy/antenna-gain-calculator/) to find that the receive antenna gain was 53.9 dBi (although this calculator did not display the units of the result!). I wasn't sure what precision would be required, so I entered 54 and found that it was accepted.
 
 After accepting the answer, the server prompted us with another question. Perhaps the initial information was not as superfluous as we had supposed.
 
