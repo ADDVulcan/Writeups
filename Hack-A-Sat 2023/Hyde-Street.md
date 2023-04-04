@@ -123,7 +123,7 @@ for (let line of lines) {
     } else if (line == "}") {
         in_quick_maths = false;
     } else if (in_quick_maths) {
-    //getting the value to return to true
+    //getting the value that it wants returned
         if (line.startsWith("return")) {
             final = parseInt(line.match("\\d+")[0])
             break
