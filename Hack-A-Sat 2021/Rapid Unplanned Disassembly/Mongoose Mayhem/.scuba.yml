@@ -1,0 +1,13 @@
+image: ubuntu:20.04
+
+hooks:
+  root:
+    script:
+      - apt update
+      - apt install -y --no-install-recommends python3 python3-pip
+  user:
+    script:
+      - pip install --user pwntools keystone-engine
+
+aliases:
+  solve: python3 solve.py
