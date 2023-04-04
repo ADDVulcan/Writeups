@@ -22,7 +22,7 @@ return (run == 7513);
 from the above code example we can see our target number we want to get is 7513, This shouldn't be hard to get because it's only addition subtraction and division.
 
 ## How to get what number we want to give quick_maths
-first we want to take the number we want(in this case 75130 and plug it in and apply the inverse operation
+first we want to take the number we want(in this case 7513) and plug it in and apply the inverse operation
 ```
 run = 7513-1491 (6022)
 run = 6022 * 7 (42154)
